@@ -1,0 +1,15 @@
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\bin\Debug\netcoreapp3.1\SchoolProject.Data.deps.json
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\bin\Debug\netcoreapp3.1\SchoolProject.Data.runtimeconfig.json
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\bin\Debug\netcoreapp3.1\SchoolProject.Data.runtimeconfig.dev.json
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\bin\Debug\netcoreapp3.1\SchoolProject.Data.dll
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\bin\Debug\netcoreapp3.1\SchoolProject.Data.pdb
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\bin\Debug\netcoreapp3.1\SchoolProject.Entities.dll
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\bin\Debug\netcoreapp3.1\SchoolProject.Entities.pdb
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\obj\Debug\netcoreapp3.1\SchoolProject.Data.csprojAssemblyReference.cache
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\obj\Debug\netcoreapp3.1\SchoolProject.Data.AssemblyInfoInputs.cache
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\obj\Debug\netcoreapp3.1\SchoolProject.Data.AssemblyInfo.cs
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\obj\Debug\netcoreapp3.1\SchoolProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\obj\Debug\netcoreapp3.1\SchoolProject.Data.csproj.CopyComplete
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\obj\Debug\netcoreapp3.1\SchoolProject.Data.dll
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\obj\Debug\netcoreapp3.1\SchoolProject.Data.pdb
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Data\obj\Debug\netcoreapp3.1\SchoolProject.Data.genruntimeconfig.cache

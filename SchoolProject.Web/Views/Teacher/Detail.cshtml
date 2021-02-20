@@ -1,0 +1,18 @@
+﻿@model Teacher
+@{
+    ViewData["Title"] = "Öğretmen Detayı";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="container">
+    <div class="row">
+        <ul>
+            <li>@Model.NameSurname</li>
+            <li>@Model.Address</li>
+            <li>@Model.Country</li>
+            <li>@Model.LessonId</li>
+        </ul>
+    </div>
+</div>

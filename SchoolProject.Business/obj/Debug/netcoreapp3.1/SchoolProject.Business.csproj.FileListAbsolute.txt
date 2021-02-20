@@ -1,0 +1,17 @@
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\bin\Debug\netcoreapp3.1\SchoolProject.Business.deps.json
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\bin\Debug\netcoreapp3.1\SchoolProject.Business.runtimeconfig.json
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\bin\Debug\netcoreapp3.1\SchoolProject.Business.runtimeconfig.dev.json
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\bin\Debug\netcoreapp3.1\SchoolProject.Business.dll
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\bin\Debug\netcoreapp3.1\SchoolProject.Business.pdb
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\obj\Debug\netcoreapp3.1\SchoolProject.Business.csprojAssemblyReference.cache
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\obj\Debug\netcoreapp3.1\SchoolProject.Business.AssemblyInfoInputs.cache
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\obj\Debug\netcoreapp3.1\SchoolProject.Business.AssemblyInfo.cs
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\obj\Debug\netcoreapp3.1\SchoolProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\obj\Debug\netcoreapp3.1\SchoolProject.Business.dll
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\obj\Debug\netcoreapp3.1\SchoolProject.Business.pdb
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\obj\Debug\netcoreapp3.1\SchoolProject.Business.genruntimeconfig.cache
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\bin\Debug\netcoreapp3.1\SchoolProject.Data.dll
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\bin\Debug\netcoreapp3.1\SchoolProject.Entities.dll
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\bin\Debug\netcoreapp3.1\SchoolProject.Data.pdb
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\bin\Debug\netcoreapp3.1\SchoolProject.Entities.pdb
+C:\Users\kurtulusocL\Desktop\SchoolProject\SchoolProject.Business\obj\Debug\netcoreapp3.1\SchoolProject.Business.csproj.CopyComplete

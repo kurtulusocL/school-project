@@ -1,0 +1,55 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "Öğrenci Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        @ViewData["Title"]
+        <form class="form-inline" method="post" action="" name="">
+            @Html.AntiForgeryToken()
+            <div class="form-group">
+                <label>Öğrenci Adı</label>
+                <input class="form-control" asp-for="NameSurname" type="text" />
+            </div>
+            <hr />
+            <div class="form-group">
+                <label>Ülkesi</label>
+                <input class="form-control" asp-for="Birthdate" type="date" />
+            </div>
+            <hr />
+            <div class="form-group">
+                <label>Adresi</label>
+                <input class="form-control" asp-for="Address" type="text" />
+            </div>
+            <hr />
+            <div class="form-group">
+                <label>Ders Seçin</label>
+                <select class="form-control m-bot15" name="LessonId">
+                    <option>--Bir Ders Seçin</option>
+                    @foreach (var item in ViewBag.Lessons)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </select>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label>Öğretmeni Seçin</label>
+                <select class="form-control m-bot15" name="TeacherId">
+                    <option>--Bir Öğretmen Seçin</option>
+                    @foreach (var item in ViewBag.Teachers)
+                    {
+                        <option value="@item.Id">@item.NameSurname</option>
+                    }
+                </select>
+            </div>
+            <hr />
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Öğrenciyi Ekle</button>
+                <a asp-controller="Student" asp-action="Index" class="btn btn-warning">İptal Et</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Student>
+@{
+    ViewData["Title"] = "Öğrenci Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <hr />
+    <strong>@ViewData["Title"]</strong>
+    <br />
+    <a asp-controller="Student" asp-action="Create" class="btn btn-primary btn-xs">Yeni Öğrenci Ekle</a>
+    <br />
+    <div class="row">
+        <table class="table table-hover table-striped table-bordered table-sm">
+            <thead>
+                <tr>
+                    <th>Adı-Soyadı</th>
+                    <th>Doğum Tarihi</th>
+                    <th>Adresi</th>
+                    <th>Öğretmen Adı</th>
+                    <th>Dersi</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.NameSurname</td>
+                        <td>@item.Birthdate.ToShortDateString()</td>
+                        <td>@item.Address</td>
+                        <td>
+                            @if (item.TeacherId!=null)
+                            {
+                                @item.Teacher.NameSurname
+                            }
+                        </td>
+                        <td>@item.Lesson.Name</td>
+                        <td>
+                            <a href="~/Student/Detail/@item.Id" class="btn btn-info btn-sm">Detay</a>
+                            <a href="~/Student/Edit/@item.Id" class="btn btn-success btn-sm">Güncelle</a>
+                            <a href="~/Student/Delete/@item.Id" onclick="return confirm('Emin Misiniz ?')" class="btn btn-danger btn-sm">Sil</a>
+                        </td>
+                    </tr>
+                }
+        </table>
+    </div>
+</div>
